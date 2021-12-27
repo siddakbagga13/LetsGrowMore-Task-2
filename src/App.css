@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #de6262;
+  }
+  .header {
+  display: flex;
+  justify-content: space-between;
+  background-color:#de6262;
+  align-items: baseline;
+  height: 5%;
+  }
+  
+  .logo{
+    width: 36%;
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    background-color: #de6262;
+    size-adjust: 1%;
+    height: 50%;
+    z-index: 0;
+    margin-left: -300px;
+  
+    
+  }
+  .logo img{
+    width: 16%;
+    border-radius: 50px;
+    margin: 1%;
+    border: 6px #fffbfb;
+   
+   
+
+    
+}
+.head-title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 60px;
+  background-color: transparent;
+  margin: 1%;
+  }
+
+  .head-btn {
+  width: 100px;
+  height: 2.5rem;
+  margin: 1%;
+  background-color: #de6262;
+  border: 3px solid black;
+  outline: none;
+  border-radius: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100%;
+  margin-right: 100px;
+  margin-bottom: 90px;
+  }
+  .head-btn:hover{
+    background-color: #ffffff;
+  }
+  .card-body {
+  text-align: center;
+  color: #000000;
+  border-radius: 10px;
+  }
+  .card-text{
+    border-radius: 10px;
+  }
+  .card-img-top {
+  width: 100%;
+  border-radius: 10px;
+  }
+  .users-space {
+  display:flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  border-radius: 50%;
+  }
+  .main {
+  border: 2px solid #000000;
+  border-radius: 20px ;
+  border: 8px solid;
+  }
